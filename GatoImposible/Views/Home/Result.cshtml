@@ -1,0 +1,11 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<div>
+    <h2>Resultado de la Partida</h2>
+    <p>Resultado: @Model.Resultado</p>
+    <p>Duración: @Model.Duracion.ToString()</p>
+    <a href="@Url.Action("Index", "Home")">Volver al juego</a>
+</div>

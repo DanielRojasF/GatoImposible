@@ -1,0 +1,20 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<form asp-action="Register">
+    <div class="form-group">
+        <label for="Username">Nombre de usuario</label>
+        <input type="text" class="form-control" id="Username" name="Username" required>
+    </div>
+    <div class="form-group">
+        <label for="Password">Contraseña</label>
+        <input type="password" class="form-control" id="Password" name="Password" required>
+    </div>
+    <div class="form-group">
+        <label for="FotoPerfil">Foto de Perfil</label>
+        <input type="file" class="form-control" id="FotoPerfil" name="FotoPerfil">
+    </div>
+    <button type="submit" class="btn btn-primary">Registrarse</button>
+</form>
